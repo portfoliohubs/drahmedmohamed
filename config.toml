@@ -1,0 +1,404 @@
+baseURL = "https://portfoliohubs.github.io/drahmedmohamed/"
+languageCode = "en-us"
+title = "Dr. Ahmed Mohamed Mohamed Agha"
+defaultContentLanguage = "en"
+
+[params]
+  # Hero Section
+  [params.hero]
+    name = "Dr. Ahmed Mohamed Mohamed Agha"
+    tagline = "General practice"
+    graduation = "Graduated 2024 - Faculty of Dentistry"
+    profile_image = "https://github.com/user-attachments/assets/c92b7548-4417-4654-aa51-2282a96dde54"
+    profile_image_alt = "Profile photo of Dr. Ahmed Mohamed Mohamed Agha"
+    
+    [params.hero.current_position]
+      role = "General practice"
+      clinic = "Alrowad clinic"
+
+  [params.seo]
+    description = "Professional dental portfolio"
+    doctor_name_en = "Dr. Ahmed Mohamed Mohamed Agha"
+    doctor_name_ar = "دكتور احمد اغا"
+    site_name = "Dr. Ahmed Mohamed Mohamed Agha"
+    og_image = ""
+    favicon_image = ""
+    twitter_handle = ""
+    keywords = [
+      "dentist",
+      "dental clinic",
+      "cosmetic dentistry",
+      "restorative dentistry",
+      "Dr. Ahmed Mohamed Mohamed Agha",
+      "general practice",
+      "DENTIST IN ALROWAD CLINIC",
+      "DENTAL CLINIC IN ALROWAD",
+      "DENTAL CLINIC"
+    ]
+    keywords_ar = [
+      "طبيب أسنان",
+      "عيادة أسنان",
+      "تجميل الأسنان",
+      "ترميم الأسنان",
+      "دكتور احمد اغا",
+      "طبيب عام",
+      "عيادة الرواد",
+      "عيادة احمد اغا",
+      "عيادة اسنان الرواد",
+      "احمد اغا اسنان"
+    ]
+
+  [params.integrations]
+    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+    google_analytics_measurement_id = ""
+
+  [params.ui]
+    [params.ui.nav]
+      profile = "Profile"
+      skills = "Skills"
+      education = "Education"
+      clinical_cases = "Clinical Cases"
+      cases_short = "Cases"
+      blog = "Blog"
+      contact = "Contact"
+
+    [params.ui.skills]
+      title = "Professional Skills"
+      clinical_title = "Clinical Skills"
+      digital_title = "Digital Skills"
+      soft_title = "Soft Skills"
+
+    [params.ui.education]
+      title = "Education & Timeline"
+      graduated_label = "Graduated"
+      career_timeline_title = "Career Timeline"
+      courses_title = "Courses & Certifications"
+
+    [params.ui.cases]
+      title = "Clinical Cases"
+      subtitle = "Clinical Cases Gallery"
+
+    [params.ui.blog]
+      title = "Latest Articles"
+      subtitle = "Insights and Knowledge"
+      empty_text = "No blog posts yet"
+
+    [params.ui.contact]
+      title = "Get In Touch"
+      subtitle = "Let's connect and collaborate"
+      follow_me_title = "Follow Me"
+
+    [params.ui.labels]
+      now_working_as = "Now working as"
+      at = "at"
+      phone = "Phone"
+      whatsapp = "WhatsApp"
+      email = "Email"
+      location = "Location"
+      get_directions = "Get Directions"
+      masters_degree = "Master's Degree"
+      phd_degree = "PhD Degree"
+      rights_reserved = "All rights reserved"
+
+  # Skills Section
+  [params.skills]
+    clinical = [
+      "Surgery",
+      "Cosmetic fillings",
+      "Endodontic treatment",
+      "Fixed and removable prosthodontics",
+      "Pediatric fillings"
+    ]
+    
+    digital = [
+      "Dental photography",
+      "Power point"
+    ]
+    
+    soft = [
+      "Speed in time management",
+      "Good communication with patients (elderly and children)"
+    ]
+
+  # Education Section
+  [params.education]
+    university = "Must university"
+    graduation_year = "2024"
+    
+    [params.education.master]
+      obtained = false
+      title = "Master in Oral Medicine"
+      year = ""
+    
+    [params.education.phd]
+      obtained = false
+      title = "PhD in Dental Sciences"
+      year = ""
+    
+    [[params.education.timeline]]
+      year = "2019"
+      event = "Start faculty of dentistry"
+    
+    [[params.education.timeline]]
+      year = "2024"
+      event = "Graduated from faculty of dentistry"
+    
+    # Certificates (images will be uploaded via GitHub issues)
+    # [[params.education.certificates]]
+    #   title = "Advanced Endodontics Course"
+    #   image = "cert1.jpg"
+  # Clinical Cases Section
+  [[params.clinical_cases]]
+    enabled = true
+    category = "operative"
+    category_ar = "اوبرتيف"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/e5552133-18d9-44da-a07f-f9e55062de02"
+      alt = "Refilling"
+      description = "Refilling"
+      alt_ar = "اعاده حشو"
+      description_ar = "اعاده حشو"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "prosthesis"
+    category_ar = "تركيبات متحركه"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/c920dacf-4484-42d9-9110-27ea68ea0ce5"
+      alt = "Removable prostheses"
+      description = "Removable prostheses"
+      alt_ar = "تركيبه متحركه"
+      description_ar = "تركيبه متحركه"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "endodontics"
+    category_ar = "حشو عصب"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/ff58ad8c-0330-4707-8b87-8e657bc808e0"
+      alt = "Endodontic treatment"
+      description = "Endodontic treatment"
+      alt_ar = "حشو عصب"
+      description_ar = "حشو عصب"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "endodontics"
+    category_ar = "حشو عصب"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/48f1afe1-1c3a-44cb-9409-26f68dd6e32c"
+      alt = "Endodontic treatment"
+      description = "Endodontic treatment"
+      alt_ar = "حشو عصب"
+      description_ar = "حشو عصب"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "operative"
+    category_ar = "اوبرتيف"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/53fbcc2c-cc21-46b1-a83b-0ed5d9196444"
+      alt = "Composite treatment"
+      description = "Composite treatment"
+      alt_ar = "حشو تجميلي"
+      description_ar = "حشو تجميلي"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "pedodontics"
+    category_ar = "حشو اطفال"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/c4a36848-71e5-434d-b9a1-b8aaf76ec4e9"
+      alt = "Pedodontic treatment"
+      description = "Pedodontic treatment"
+      alt_ar = "حشو وطرابيش اطفال"
+      description_ar = "حشو وطرابيش اطفال"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "prosthesis"
+    category_ar = "تركيبات ثابته"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/02b17557-eebe-495a-a36a-f1147e5b2835"
+      alt = "Fixed prostheses"
+      description = "Fixed prostheses"
+      alt_ar = "تركيبات ثابته"
+      description_ar = "تركيبات ثابته"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "prosthesis"
+    category_ar = "تركيبات ثابته"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/ea3a031c-6a03-4e1c-9e79-c7102b0da254"
+      alt = "Fixed prostheses"
+      description = "Fixed prostheses"
+      alt_ar = "تركيبات ثابته"
+      description_ar = "تركيبات ثابته"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "perio"
+    category_ar = "Perio"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/1182c80d-f548-4fd7-92e0-a05dc82021a8"
+      alt = "Scalling"
+      description = "Scalling"
+      alt_ar = "تنضيف جير"
+      description_ar = "تنضيف جير"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "operative"
+    category_ar = "اوبرتيف"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/41de79e8-3196-472e-a08b-77fbd6ee0dea"
+      alt = "Refining"
+      description = "Refining"
+      alt_ar = "اعاده حشو"
+      description_ar = "اعاده حشو"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "operative"
+    category_ar = "اوبرتيف"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/581c1aed-4f55-4b87-b613-81b8b0a3fc73"
+      alt = "Composite filling"
+      description = "Composite filling"
+      alt_ar = "حشو تجميلي"
+      description_ar = "حشو تجميلي"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "surgery"
+    category_ar = "جراحه"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/459659a0-c70e-432b-9f6a-4edd26e47e74"
+      alt = "Extraction"
+      description = "Extraction"
+      alt_ar = "خلع"
+      description_ar = "خلع"
+      
+  # Contact Section
+  [params.contact]
+    phone = "+2010005055568"
+    whatsapp = "+2010005055567"
+    email = "Ahmed agha"
+    instagram = ""
+    facebook = "https://www.facebook.com/share/1AyUG9Ruwa/?mibextid=wwXIfr"
+    linkedin = ""
+    
+    [params.contact.location]
+      enabled = true
+      address = "الهرم"
+      latitude = "30.000025942915727"
+      longitude = "31.17613224662917"
+
+# Arabic Translations
+[params.ar]
+  [params.ar.hero]
+    name = "احمد محمد محمد اغا"
+    tagline = "طبيب عام"
+    graduation = "تخرج 2024 - كلية طب الأسنان"
+    profile_image_alt = "صورة الملف الشخصي للدكتور احمد محمد محمد اغا"
+    
+    [params.ar.hero.current_position]
+      role = "طبيب عام"
+      clinic = "عيادات الرواد"
+  
+[params.ar.skills]
+    clinical = [
+      "جراحه",
+      "حشوات تجميليه",
+      "حشو عصب",
+      "تركيبات ثابته ومتحركه",
+      "حشوات للاطفال"
+    ]
+    
+    digital = [
+      "التصوير واستخدام power point"
+    ]
+    
+    soft = [
+      "السرعه ف الوقت وحسن التعامل مع المرضي كبير وصغير"
+    ]
+    
+  
+  [params.ar.education]
+    university = "جامعه مصر للعلوم والتكنولوجيا"
+    
+    [params.ar.education.master]
+      title = "ماجستير في طب الفم"
+    
+    [params.ar.education.phd]
+      title = "دكتوراه في علوم الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "2019دخول الكليه"
+    
+    [[params.ar.education.timeline]]
+      event = "2024التخرج"  
+
+  [params.ar.contact.location]
+    address = "الهرم"
+
+  [params.ar.ui]
+    [params.ar.ui.nav]
+      profile = "الملف الشخصي"
+      skills = "المهارات"
+      education = "التعليم"
+      clinical_cases = "الحالات السريرية"
+      cases_short = "الحالات"
+      blog = "المدونة"
+      contact = "التواصل"
+
+    [params.ar.ui.skills]
+      title = "المهارات المهنية"
+      clinical_title = "المهارات السريرية"
+      digital_title = "المهارات الرقمية"
+      soft_title = "المهارات الشخصية"
+
+    [params.ar.ui.education]
+      title = "التعليم والخط الزمني"
+      graduated_label = "تخرج"
+      career_timeline_title = "الخط الزمني المهني"
+      courses_title = "الدورات والشهادات"
+
+    [params.ar.ui.cases]
+      title = "الحالات السريرية"
+      subtitle = "معرض الحالات السريرية"
+
+    [params.ar.ui.blog]
+      title = "أحدث المقالات"
+      subtitle = "رؤى ومعرفة"
+      empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
+
+    [params.ar.ui.contact]
+      title = "تواصل معي"
+      subtitle = "لنتواصل ونتعاون"
+      follow_me_title = "تابعني"
+
+    [params.ar.ui.labels]
+      now_working_as = "أعمل حالياً ك"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      masters_degree = "درجة الماجستير"
+      phd_degree = "درجة الدكتوراه"
+      rights_reserved = "جميع الحقوق محفوظة"
