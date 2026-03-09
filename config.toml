@@ -1,16 +1,16 @@
 baseURL = "https://portfoliohubs.github.io/drahmedmohamed/"
 languageCode = "en-us"
-title = "Dr. Ahmed Mohamed Mohamed Agha"
+title = "Dr. Ahmed Mohamed"
 defaultContentLanguage = "en"
 
 [params]
   # Hero Section
   [params.hero]
-    name = "Dr. Ahmed Mohamed Mohamed Agha"
+    name = "Dr. Ahmed Mohamed"
     tagline = "General practice"
     graduation = "Graduated 2024 - Faculty of Dentistry"
     profile_image = "https://github.com/user-attachments/assets/c92b7548-4417-4654-aa51-2282a96dde54"
-    profile_image_alt = "Profile photo of Dr. Ahmed Mohamed Mohamed Agha"
+    profile_image_alt = "Profile photo of Dr. Ahmed Mohamed"
     
     [params.hero.current_position]
       role = "General practice"
@@ -18,9 +18,9 @@ defaultContentLanguage = "en"
 
   [params.seo]
     description = "Professional dental portfolio"
-    doctor_name_en = "Dr. Ahmed Mohamed Mohamed Agha"
+    doctor_name_en = "Dr. Ahmed Mohamed"
     doctor_name_ar = "دكتور احمد اغا"
-    site_name = "Dr. Ahmed Mohamed Mohamed Agha"
+    site_name = "Dr. Ahmed Mohamed"
     og_image = ""
     favicon_image = ""
     twitter_handle = ""
@@ -29,7 +29,7 @@ defaultContentLanguage = "en"
       "dental clinic",
       "cosmetic dentistry",
       "restorative dentistry",
-      "Dr. Ahmed Mohamed Mohamed Agha",
+      "Dr. Ahmed Mohamed",
       "general practice",
       "DENTIST IN ALROWAD CLINIC",
       "DENTAL CLINIC IN ALROWAD",
