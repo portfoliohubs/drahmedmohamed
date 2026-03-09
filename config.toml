@@ -160,10 +160,31 @@ defaultContentLanguage = "en"
       alt_ar = "اعاده حشو"
       description_ar = "اعاده حشو"
 
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/53fbcc2c-cc21-46b1-a83b-0ed5d9196444"
+      alt = "Composite treatment"
+      description = "Composite treatment"
+      alt_ar = "حشو تجميلي"
+      description_ar = "حشو تجميلي"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/41de79e8-3196-472e-a08b-77fbd6ee0dea"
+      alt = "Refining"
+      description = "Refining"
+      alt_ar = "اعاده حشو"
+      description_ar = "اعاده حشو"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/581c1aed-4f55-4b87-b613-81b8b0a3fc73"
+      alt = "Composite filling"
+      description = "Composite filling"
+      alt_ar = "حشو تجميلي"
+      description_ar = "حشو تجميلي"
+
   [[params.clinical_cases]]
     enabled = true
     category = "prosthesis"
-    category_ar = "تركيبات متحركه"
+    category_ar = "تركيبات ثابته ومتحركه"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/c920dacf-4484-42d9-9110-27ea68ea0ce5"
@@ -171,6 +192,20 @@ defaultContentLanguage = "en"
       description = "Removable prostheses"
       alt_ar = "تركيبه متحركه"
       description_ar = "تركيبه متحركه"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/02b17557-eebe-495a-a36a-f1147e5b2835"
+      alt = "Fixed prostheses"
+      description = "Fixed prostheses"
+      alt_ar = "تركيبات ثابته"
+      description_ar = "تركيبات ثابته"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/ea3a031c-6a03-4e1c-9e79-c7102b0da254"
+      alt = "Fixed prostheses"
+      description = "Fixed prostheses"
+      alt_ar = "تركيبات ثابته"
+      description_ar = "تركيبات ثابته"
 
   [[params.clinical_cases]]
     enabled = true
@@ -184,29 +219,12 @@ defaultContentLanguage = "en"
       alt_ar = "حشو عصب"
       description_ar = "حشو عصب"
 
-  [[params.clinical_cases]]
-    enabled = true
-    category = "endodontics"
-    category_ar = "حشو عصب"
-    
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/48f1afe1-1c3a-44cb-9409-26f68dd6e32c"
       alt = "Endodontic treatment"
       description = "Endodontic treatment"
       alt_ar = "حشو عصب"
       description_ar = "حشو عصب"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "operative"
-    category_ar = "اوبرتيف"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/53fbcc2c-cc21-46b1-a83b-0ed5d9196444"
-      alt = "Composite treatment"
-      description = "Composite treatment"
-      alt_ar = "حشو تجميلي"
-      description_ar = "حشو تجميلي"
 
   [[params.clinical_cases]]
     enabled = true
@@ -222,30 +240,6 @@ defaultContentLanguage = "en"
 
   [[params.clinical_cases]]
     enabled = true
-    category = "prosthesis"
-    category_ar = "تركيبات ثابته"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/02b17557-eebe-495a-a36a-f1147e5b2835"
-      alt = "Fixed prostheses"
-      description = "Fixed prostheses"
-      alt_ar = "تركيبات ثابته"
-      description_ar = "تركيبات ثابته"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "prosthesis"
-    category_ar = "تركيبات ثابته"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/ea3a031c-6a03-4e1c-9e79-c7102b0da254"
-      alt = "Fixed prostheses"
-      description = "Fixed prostheses"
-      alt_ar = "تركيبات ثابته"
-      description_ar = "تركيبات ثابته"
-
-  [[params.clinical_cases]]
-    enabled = true
     category = "perio"
     category_ar = "Perio"
     
@@ -255,30 +249,6 @@ defaultContentLanguage = "en"
       description = "Scalling"
       alt_ar = "تنضيف جير"
       description_ar = "تنضيف جير"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "operative"
-    category_ar = "اوبرتيف"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/41de79e8-3196-472e-a08b-77fbd6ee0dea"
-      alt = "Refining"
-      description = "Refining"
-      alt_ar = "اعاده حشو"
-      description_ar = "اعاده حشو"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "operative"
-    category_ar = "اوبرتيف"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/581c1aed-4f55-4b87-b613-81b8b0a3fc73"
-      alt = "Composite filling"
-      description = "Composite filling"
-      alt_ar = "حشو تجميلي"
-      description_ar = "حشو تجميلي"
 
   [[params.clinical_cases]]
     enabled = true
