@@ -280,7 +280,7 @@ defaultContentLanguage = "en"
 # Arabic Translations
 [params.ar]
   [params.ar.hero]
-    name = "احمد محمد محمد اغا"
+    name = "د. احمد محمد محمد اغا"
     tagline = "طبيب عام"
     graduation = "تخرج 2024 - كلية طب الأسنان"
     profile_image_alt = "صورة الملف الشخصي للدكتور احمد محمد محمد اغا"
