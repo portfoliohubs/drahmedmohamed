@@ -264,8 +264,8 @@ defaultContentLanguage = "en"
       
   # Contact Section
   [params.contact]
-    phone = "+2010005055568"
-    whatsapp = "+2010005055567"
+    phone = "+201005055568"
+    whatsapp = "+201005055568"
     email = "Ahmed agha"
     instagram = ""
     facebook = "https://www.facebook.com/share/1AyUG9Ruwa/?mibextid=wwXIfr"
